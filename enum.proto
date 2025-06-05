@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package mypackage;
+
+enum Status {
+    UNKNOWN = 0;
+    OK = 1;
+    ERROR = 2;
+    TIMEOUT = 3;
+}
+

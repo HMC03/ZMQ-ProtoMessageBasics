@@ -1,0 +1,1 @@
+/usr/lib/ccache/c++ CMakeFiles/zmqpub.dir/zmqpub.cc.o CMakeFiles/zmqpub.dir/message.pb.cc.o CMakeFiles/zmqpub.dir/enum.pb.cc.o -o zmqpub  /usr/lib/x86_64-linux-gnu/libprotobuf.so -lzmq 

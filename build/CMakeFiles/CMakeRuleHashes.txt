@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+2b449613d3c837b7525b51d7736bceed enum.pb.h
+b01ca32b0c5e2944401e9ee79fb420a1 message.pb.h

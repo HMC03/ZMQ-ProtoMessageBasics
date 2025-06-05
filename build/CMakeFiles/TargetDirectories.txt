@@ -1,0 +1,4 @@
+/home/hayden/personal/protos/build/CMakeFiles/zmqpub.dir
+/home/hayden/personal/protos/build/CMakeFiles/zmqsub.dir
+/home/hayden/personal/protos/build/CMakeFiles/edit_cache.dir
+/home/hayden/personal/protos/build/CMakeFiles/rebuild_cache.dir
