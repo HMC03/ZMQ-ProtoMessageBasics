@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hayden/personal/protos
+CMAKE_SOURCE_DIR = /home/hayden/personal/ZMQ+ProtoMessageBasics
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hayden/personal/protos/build
+CMAKE_BINARY_DIR = /home/hayden/personal/ZMQ+ProtoMessageBasics/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/zmqpub.dir/depend.make
@@ -69,63 +69,63 @@ include CMakeFiles/zmqpub.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/zmqpub.dir/flags.make
 
-message.pb.h: /home/hayden/personal/protos/message.proto
+message.pb.h: /home/hayden/personal/ZMQ+ProtoMessageBasics/message.proto
 message.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/hayden/personal/protos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running cpp protocol buffer compiler on /home/hayden/personal/protos/message.proto"
-	/usr/bin/protoc --cpp_out :/home/hayden/personal/protos/build -I /home/hayden/personal/protos /home/hayden/personal/protos/message.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/hayden/personal/ZMQ+ProtoMessageBasics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running cpp protocol buffer compiler on /home/hayden/personal/ZMQ+ProtoMessageBasics/message.proto"
+	/usr/bin/protoc --cpp_out :/home/hayden/personal/ZMQ+ProtoMessageBasics/build -I /home/hayden/personal/ZMQ+ProtoMessageBasics /home/hayden/personal/ZMQ+ProtoMessageBasics/message.proto
 
 message.pb.cc: message.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate message.pb.cc
 
-enum.pb.h: /home/hayden/personal/protos/enum.proto
+enum.pb.h: /home/hayden/personal/ZMQ+ProtoMessageBasics/enum.proto
 enum.pb.h: /usr/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/hayden/personal/protos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Running cpp protocol buffer compiler on /home/hayden/personal/protos/enum.proto"
-	/usr/bin/protoc --cpp_out :/home/hayden/personal/protos/build -I /home/hayden/personal/protos /home/hayden/personal/protos/enum.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/hayden/personal/ZMQ+ProtoMessageBasics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Running cpp protocol buffer compiler on /home/hayden/personal/ZMQ+ProtoMessageBasics/enum.proto"
+	/usr/bin/protoc --cpp_out :/home/hayden/personal/ZMQ+ProtoMessageBasics/build -I /home/hayden/personal/ZMQ+ProtoMessageBasics /home/hayden/personal/ZMQ+ProtoMessageBasics/enum.proto
 
 enum.pb.cc: enum.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate enum.pb.cc
 
 CMakeFiles/zmqpub.dir/zmqpub.cc.o: CMakeFiles/zmqpub.dir/flags.make
-CMakeFiles/zmqpub.dir/zmqpub.cc.o: /home/hayden/personal/protos/zmqpub.cc
+CMakeFiles/zmqpub.dir/zmqpub.cc.o: /home/hayden/personal/ZMQ+ProtoMessageBasics/zmqpub.cc
 CMakeFiles/zmqpub.dir/zmqpub.cc.o: CMakeFiles/zmqpub.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hayden/personal/protos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/zmqpub.dir/zmqpub.cc.o"
-	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/zmqpub.dir/zmqpub.cc.o -MF CMakeFiles/zmqpub.dir/zmqpub.cc.o.d -o CMakeFiles/zmqpub.dir/zmqpub.cc.o -c /home/hayden/personal/protos/zmqpub.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hayden/personal/ZMQ+ProtoMessageBasics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/zmqpub.dir/zmqpub.cc.o"
+	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/zmqpub.dir/zmqpub.cc.o -MF CMakeFiles/zmqpub.dir/zmqpub.cc.o.d -o CMakeFiles/zmqpub.dir/zmqpub.cc.o -c /home/hayden/personal/ZMQ+ProtoMessageBasics/zmqpub.cc
 
 CMakeFiles/zmqpub.dir/zmqpub.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/zmqpub.dir/zmqpub.cc.i"
-	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hayden/personal/protos/zmqpub.cc > CMakeFiles/zmqpub.dir/zmqpub.cc.i
+	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hayden/personal/ZMQ+ProtoMessageBasics/zmqpub.cc > CMakeFiles/zmqpub.dir/zmqpub.cc.i
 
 CMakeFiles/zmqpub.dir/zmqpub.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/zmqpub.dir/zmqpub.cc.s"
-	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hayden/personal/protos/zmqpub.cc -o CMakeFiles/zmqpub.dir/zmqpub.cc.s
+	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hayden/personal/ZMQ+ProtoMessageBasics/zmqpub.cc -o CMakeFiles/zmqpub.dir/zmqpub.cc.s
 
 CMakeFiles/zmqpub.dir/message.pb.cc.o: CMakeFiles/zmqpub.dir/flags.make
 CMakeFiles/zmqpub.dir/message.pb.cc.o: message.pb.cc
 CMakeFiles/zmqpub.dir/message.pb.cc.o: CMakeFiles/zmqpub.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hayden/personal/protos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/zmqpub.dir/message.pb.cc.o"
-	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/zmqpub.dir/message.pb.cc.o -MF CMakeFiles/zmqpub.dir/message.pb.cc.o.d -o CMakeFiles/zmqpub.dir/message.pb.cc.o -c /home/hayden/personal/protos/build/message.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hayden/personal/ZMQ+ProtoMessageBasics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/zmqpub.dir/message.pb.cc.o"
+	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/zmqpub.dir/message.pb.cc.o -MF CMakeFiles/zmqpub.dir/message.pb.cc.o.d -o CMakeFiles/zmqpub.dir/message.pb.cc.o -c /home/hayden/personal/ZMQ+ProtoMessageBasics/build/message.pb.cc
 
 CMakeFiles/zmqpub.dir/message.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/zmqpub.dir/message.pb.cc.i"
-	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hayden/personal/protos/build/message.pb.cc > CMakeFiles/zmqpub.dir/message.pb.cc.i
+	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hayden/personal/ZMQ+ProtoMessageBasics/build/message.pb.cc > CMakeFiles/zmqpub.dir/message.pb.cc.i
 
 CMakeFiles/zmqpub.dir/message.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/zmqpub.dir/message.pb.cc.s"
-	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hayden/personal/protos/build/message.pb.cc -o CMakeFiles/zmqpub.dir/message.pb.cc.s
+	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hayden/personal/ZMQ+ProtoMessageBasics/build/message.pb.cc -o CMakeFiles/zmqpub.dir/message.pb.cc.s
 
 CMakeFiles/zmqpub.dir/enum.pb.cc.o: CMakeFiles/zmqpub.dir/flags.make
 CMakeFiles/zmqpub.dir/enum.pb.cc.o: enum.pb.cc
 CMakeFiles/zmqpub.dir/enum.pb.cc.o: CMakeFiles/zmqpub.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hayden/personal/protos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/zmqpub.dir/enum.pb.cc.o"
-	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/zmqpub.dir/enum.pb.cc.o -MF CMakeFiles/zmqpub.dir/enum.pb.cc.o.d -o CMakeFiles/zmqpub.dir/enum.pb.cc.o -c /home/hayden/personal/protos/build/enum.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hayden/personal/ZMQ+ProtoMessageBasics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/zmqpub.dir/enum.pb.cc.o"
+	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/zmqpub.dir/enum.pb.cc.o -MF CMakeFiles/zmqpub.dir/enum.pb.cc.o.d -o CMakeFiles/zmqpub.dir/enum.pb.cc.o -c /home/hayden/personal/ZMQ+ProtoMessageBasics/build/enum.pb.cc
 
 CMakeFiles/zmqpub.dir/enum.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/zmqpub.dir/enum.pb.cc.i"
-	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hayden/personal/protos/build/enum.pb.cc > CMakeFiles/zmqpub.dir/enum.pb.cc.i
+	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hayden/personal/ZMQ+ProtoMessageBasics/build/enum.pb.cc > CMakeFiles/zmqpub.dir/enum.pb.cc.i
 
 CMakeFiles/zmqpub.dir/enum.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/zmqpub.dir/enum.pb.cc.s"
-	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hayden/personal/protos/build/enum.pb.cc -o CMakeFiles/zmqpub.dir/enum.pb.cc.s
+	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hayden/personal/ZMQ+ProtoMessageBasics/build/enum.pb.cc -o CMakeFiles/zmqpub.dir/enum.pb.cc.s
 
 # Object files for target zmqpub
 zmqpub_OBJECTS = \
@@ -142,7 +142,7 @@ zmqpub: CMakeFiles/zmqpub.dir/enum.pb.cc.o
 zmqpub: CMakeFiles/zmqpub.dir/build.make
 zmqpub: /usr/lib/x86_64-linux-gnu/libprotobuf.so
 zmqpub: CMakeFiles/zmqpub.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/hayden/personal/protos/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable zmqpub"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/hayden/personal/ZMQ+ProtoMessageBasics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable zmqpub"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/zmqpub.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -157,6 +157,6 @@ CMakeFiles/zmqpub.dir/depend: enum.pb.cc
 CMakeFiles/zmqpub.dir/depend: enum.pb.h
 CMakeFiles/zmqpub.dir/depend: message.pb.cc
 CMakeFiles/zmqpub.dir/depend: message.pb.h
-	cd /home/hayden/personal/protos/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hayden/personal/protos /home/hayden/personal/protos /home/hayden/personal/protos/build /home/hayden/personal/protos/build /home/hayden/personal/protos/build/CMakeFiles/zmqpub.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/hayden/personal/ZMQ+ProtoMessageBasics/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hayden/personal/ZMQ+ProtoMessageBasics /home/hayden/personal/ZMQ+ProtoMessageBasics /home/hayden/personal/ZMQ+ProtoMessageBasics/build /home/hayden/personal/ZMQ+ProtoMessageBasics/build /home/hayden/personal/ZMQ+ProtoMessageBasics/build/CMakeFiles/zmqpub.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/zmqpub.dir/depend
 

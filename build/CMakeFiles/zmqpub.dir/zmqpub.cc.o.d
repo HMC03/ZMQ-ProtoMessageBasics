@@ -1,4 +1,5 @@
-CMakeFiles/zmqpub.dir/zmqpub.cc.o: /home/hayden/personal/protos/zmqpub.cc \
+CMakeFiles/zmqpub.dir/zmqpub.cc.o: \
+ /home/hayden/personal/ZMQ+ProtoMessageBasics/zmqpub.cc \
  /usr/include/stdc-predef.h /usr/include/zmq.hpp /usr/include/zmq.h \
  /usr/include/errno.h /usr/include/features.h \
  /usr/include/features-time64.h \
@@ -216,7 +217,7 @@ CMakeFiles/zmqpub.dir/zmqpub.cc.o: /home/hayden/personal/protos/zmqpub.cc \
  /usr/include/c++/13/backward/auto_ptr.h \
  /usr/include/c++/13/pstl/glue_memory_defs.h /usr/include/c++/13/optional \
  /usr/include/c++/13/bits/enable_special_members.h \
- /home/hayden/personal/protos/build/message.pb.h \
+ /home/hayden/personal/ZMQ+ProtoMessageBasics/build/message.pb.h \
  /usr/include/google/protobuf/port_def.inc \
  /usr/include/google/protobuf/port_undef.inc \
  /usr/include/google/protobuf/io/coded_stream.h \
@@ -289,4 +290,5 @@ CMakeFiles/zmqpub.dir/zmqpub.cc.o: /home/hayden/personal/protos/zmqpub.cc \
  /usr/include/c++/13/bits/std_function.h \
  /usr/include/google/protobuf/map_type_handler.h \
  /usr/include/google/protobuf/extension_set.h \
- /home/hayden/personal/protos/build/enum.pb.h /usr/include/c++/13/csignal
+ /home/hayden/personal/ZMQ+ProtoMessageBasics/build/enum.pb.h \
+ /usr/include/c++/13/csignal

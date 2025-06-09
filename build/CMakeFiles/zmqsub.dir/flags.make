@@ -4,7 +4,7 @@
 # compile CXX with /usr/lib/ccache/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/home/hayden/personal/protos/build
+CXX_INCLUDES = -I/usr/include/pgm-5.3 -I/usr/include/libxml2 -I/usr/include/mit-krb5 -I/home/hayden/personal/ZMQ+ProtoMessageBasics/build
 
 CXX_FLAGS = -std=gnu++17
 

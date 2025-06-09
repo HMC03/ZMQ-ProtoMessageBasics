@@ -1,7 +1,7 @@
 CMakeFiles/zmqpub.dir/message.pb.cc.o: \
- /home/hayden/personal/protos/build/message.pb.cc \
+ /home/hayden/personal/ZMQ+ProtoMessageBasics/build/message.pb.cc \
  /usr/include/stdc-predef.h \
- /home/hayden/personal/protos/build/message.pb.h \
+ /home/hayden/personal/ZMQ+ProtoMessageBasics/build/message.pb.h \
  /usr/include/c++/13/limits \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -257,6 +257,6 @@ CMakeFiles/zmqpub.dir/message.pb.cc.o: \
  /usr/include/c++/13/compare \
  /usr/include/google/protobuf/map_type_handler.h \
  /usr/include/google/protobuf/extension_set.h /usr/include/c++/13/cassert \
- /home/hayden/personal/protos/build/enum.pb.h \
+ /home/hayden/personal/ZMQ+ProtoMessageBasics/build/enum.pb.h \
  /usr/include/google/protobuf/reflection_ops.h \
  /usr/include/google/protobuf/wire_format.h

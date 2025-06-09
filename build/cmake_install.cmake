@@ -1,4 +1,4 @@
-# Install script for directory: /home/hayden/personal/protos
+# Install script for directory: /home/hayden/personal/ZMQ+ProtoMessageBasics
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/hayden/personal/protos/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/hayden/personal/ZMQ+ProtoMessageBasics/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
